@@ -37,5 +37,3 @@ To setup the config, run `install.sh`.
 - **`after/plugin/`** → Extra plugin setup after Lazy.nvim loads.
 - **`snippets/`** → Custom snippets (for LuaSnip).
 
-✅ **Everything is modular, clean, and scalable!**
-
