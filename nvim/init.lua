@@ -42,3 +42,6 @@ end)
 vim.schedule(function()
   require("nvim-tree.api").tree.open()
 end)
+
+require("configs.options") -- ✅ Ensure Neovim loads options at startup
+
