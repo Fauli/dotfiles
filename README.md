@@ -1,5 +1,11 @@
 # Dotfiles
 
+<p align="center">
+    <img src=".attachements/sloth-hacker.webp" alt="Hacker Sloth" width="300" height="300">
+    <br/>
+    Keep it organized!
+</p>
+
 ## General Installation
 
 To setup the config, run `install.sh`.
