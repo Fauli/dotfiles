@@ -1,5 +1,20 @@
 return {
   {
+     "github/copilot.vim",
+     lazy = false, -- Ensures Copilot loads at startup
+     config = function()
+       vim.g.copilot_no_tab_map = true -- Prevent conflicts with nvim-cmp
+       vim.g.copilot_enabled = true
+     end,
+  },
+  {
+    "zbirenbaum/copilot-cmp",
+    dependencies = { "github/copilot.vim" },
+    config = function()
+      require("copilot_cmp").setup()
+    end,
+  },
+  {
     "stevearc/conform.nvim",
     opts = require "configs.conform",
   },
